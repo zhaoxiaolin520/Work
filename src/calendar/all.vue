@@ -83,7 +83,7 @@
             look(json){
                 var self = this;
                 console.log(json);
-                if (json.title && json.op == 1) {
+                if ((json.title && json.op == 1) || (json.title && json.op == undefined)) {
                     self.isShowXQ = true;
                     self.info = json;
                 }

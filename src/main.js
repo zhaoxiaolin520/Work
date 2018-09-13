@@ -641,7 +641,7 @@ const r = [
     },
     {
         path: '*',
-        redirect: '/project'
+        redirect: '/calendar/all'
     }
 ]
 
